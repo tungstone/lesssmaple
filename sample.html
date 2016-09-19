@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Script-Type" content="text/javascript">
+		<meta http-equiv="Content-Style-Type" content="text/css">
+		<link rel="stylesheet" type="text/css" href="css/sample.css">
+		<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css"></script>
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("a").on("click",function(){
+					return false;
+				});
+			});
+		</script>
+		<title>Contents Page Sample</title>
+	</head>
+	<body>
+		<div id="header" class="col-md-4 col-md-offset-4">
+			<p class="logo">한국민속대백과사전</p>
+			<input type="text" placeholder="검색어를 입력하세요.">
+			<button class="btn_srch">검색</button>
+		</div>
+		<div id="index" class="col-md-8 col-md-offset-4">
+			<select>
+				<option value="0">가나다색인</option>
+			</select>
+			<span>ㄱ</span>
+			<span>ㄴ</span>
+			<span>ㄷ</span>
+			<span>ㄹ</span>
+			<span>ㅁ</span>
+			<span>ㅂ</span>
+			<span>ㅅ</span>
+			<span>ㅇ</span>
+			<span>ㅈ</span>
+			<span>ㅊ</span>
+			<span>ㅋ</span>
+			<span>ㅌ</span>
+			<span>ㅍ</span>
+			<span>ㅎ</span>
+		</div>
+		<div class="lnb col-md-2 col-md-offset-2">
+			<ul>
+				<li>
+					<a herf="#">월별</a>
+				</li>
+				<li>
+					<a herf="#">계절별</a>
+				</li>
+				<li>
+					<a herf="#">분야별</a>
+				</li>
+				<li>
+					<a herf="#">가나다색인</a>
+				</li>
+				<li>
+					<a herf="#">집필자</a>
+				</li>
+				<li>
+					<a herf="#">멀티미디어</a>
+				</li>
+				<li>
+					<a herf="#">지도 보기</a>
+				</li>
+			</ul>
+		</div>
+		<div id="cont" class="col-md-4">
+			<div class="col-md-3 col-md-offset-9">
+				<span>+</span>
+				<span>-</span>
+			</div>
+			<div class="col-md-12" style="text-align:center;">
+				<p>Title</p>
+				<img src="img/t3_78263.jpg" width="565" height="565" alt="t3_78263">
+				<div class="col-md-12">
+					<dl>
+						<dt>정의</dt>
+						<dd>정정의의</dd><br />
+						<dt>정의</dt>
+						<dd>정정의의</dd><br />
+						<dt>정의</dt>
+						<dd>정정의의</dd><br />
+						<dt>정의</dt>
+						<dd>정정의의</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,76 @@
+ul {
+  margin: 0 !important;
+  padding: 0;
+  list-style: none;
+}
+a:hover {
+  text-decoration: none !important;
+}
+.btn_srch {
+  width: 50px;
+  height: 41px;
+}
+body {
+  background-color: gray !important;
+}
+#header {
+  margin-top: 30px;
+  text-align: center;
+}
+#header .logo {
+  float: left;
+  margin-right: 20px;
+  width: 153px;
+  height: 41px;
+  text-indent: -9999px;
+  background: url("../img/top_logo.gif") no-repeat 0 0;
+  background-size: 153px 41px;
+}
+#header input {
+  float: left;
+  margin-right: 20px;
+  width: 60%;
+  height: 41px;
+}
+#header button {
+  float: left;
+}
+#content {
+  background-color: #fff;
+}
+#index {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#index select {
+  width: 15%;
+}
+#index span {
+  margin-left: 10px;
+  border: 1px solid #000;
+  background-color: #fff;
+  cursor: pointer;
+}
+.lnb {
+  margin-right: 20px;
+  padding: 0 !important;
+  width: 15.5% !important;
+  background-color: #fff;
+}
+.lnb ul li {
+  padding: 10px 0 10px 15px;
+  border-bottom: 1px solid gray;
+}
+#cont {
+  background-color: #fff;
+}
+#cont dl {
+  margin-top: 35px;
+}
+#cont dl dt {
+  float: left;
+}
+#cont dl dd {
+  float: left;
+  margin-left: 20px;
+}
